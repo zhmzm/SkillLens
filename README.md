@@ -29,8 +29,8 @@ task_instructions/{domain}/*.md   # standalone task prompts
 | Domain    | Test tasks | Test skills | Train tasks | Train skills |
 |-----------|:----------:|:-----------:|:-----------:|:------------:|
 | code      | 57         | 10          | 2 492       | 402          |
-| math      | 60         | 9           | 275         | 53           |
-| chemistry | 50         | 5           | 1 092       | 27           |
+| math      | 60         | 9           | 1 186       | 53           |
+| chemistry | 75         | 10          | 1 092       | 27           |
 
 ---
 
