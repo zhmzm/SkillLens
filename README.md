@@ -1,8 +1,6 @@
 # SkillLens
 
-**SkillLens** is a benchmark for measuring how much domain-specific skill packs improve LLM coding-agent pass rates across three domains: **code**, **math**, and **chemistry**.
-
-> Paper: *Decomposing Skill Efficacy in Agent Benchmarks* (under review, NeurIPS 2026 Datasets & Benchmarks track)
+**SkillLens** is a diagnostic benchmark that decomposes the efficacy of expert-authored agent skills on language-agent task performance across three domains: **mathematics**, **code**, and **chemistry**.
 
 ---
 
@@ -32,7 +30,7 @@ task_instructions/{domain}/*.md   # standalone task prompts
 |-----------|:----------:|:-----------:|:-----------:|:------------:|
 | code      | 57         | 10          | 2 492       | 402          |
 | math      | 60         | 9           | 275         | 53           |
-| chemistry | 50         | 5           | 92          | 27           |
+| chemistry | 50         | 5           | 1 092       | 27           |
 
 ---
 
