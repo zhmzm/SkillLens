@@ -22,7 +22,7 @@ data/{domain}/train/tasks/        # train_set.json
 data/{domain}/train/skills/       # train_set_skills.json
 data/{domain}/test/tasks/         # test_set_tasks.json
 data/{domain}/test/skills/        # test_set_skills.json
-data/skill_index.json             # 24 test-set skills across all domains
+data/skill_index.json             # 29 test-set skills across all domains
 task_instructions/{domain}/*.md   # standalone task prompts
 ```
 
@@ -42,7 +42,7 @@ Each task is evaluated under three conditions:
 |-----------|-------------|
 | **C0** | No skill — agent receives only the task instruction |
 | **C1** | One relevant skill prepended to the instruction |
-| **C2** | Best-of-N skill selection across candidate skills |
+| **C2** | Routed — model selects a skill from same-domain candidates (or none) using task metadata |
 
 Skills are domain-specific markdown documents (see `skills/`) that describe algorithmic workflows, API patterns, and code scaffolding. The benchmark tests whether injecting a skill at inference time raises the agent's pass rate on that task.
 
