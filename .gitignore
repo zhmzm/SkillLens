@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+harbor_jobs/
+harbor_code_pilot_jobs/
+*_results.csv
